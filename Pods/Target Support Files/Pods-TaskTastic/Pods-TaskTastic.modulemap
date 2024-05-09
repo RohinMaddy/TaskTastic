@@ -1,0 +1,6 @@
+framework module Pods_TaskTastic {
+  umbrella header "Pods-TaskTastic-umbrella.h"
+
+  export *
+  module * { export * }
+}

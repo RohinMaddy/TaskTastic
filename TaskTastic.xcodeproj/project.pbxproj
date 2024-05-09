@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B19A9402BEB705900DC781A /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B19A93F2BEB705900DC781A /* SwipeTableViewController.swift */; };
 		9B4957CE2BE3B46B00EDCF92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4957CD2BE3B46B00EDCF92 /* AppDelegate.swift */; };
 		9B4957D02BE3B46B00EDCF92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4957CF2BE3B46B00EDCF92 /* SceneDelegate.swift */; };
-		9B4957D22BE3B46B00EDCF92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4957D12BE3B46B00EDCF92 /* ViewController.swift */; };
 		9B4957D52BE3B46B00EDCF92 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9B4957D42BE3B46B00EDCF92 /* Base */; };
 		9B4957D72BE3B46C00EDCF92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B4957D62BE3B46C00EDCF92 /* Assets.xcassets */; };
 		9B4957DA2BE3B46C00EDCF92 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9B4957D92BE3B46C00EDCF92 /* Base */; };
+		9B4957E22BE3B50400EDCF92 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4957E12BE3B50400EDCF92 /* HomeTableViewController.swift */; };
+		9B8520B42BE94BDC007D5334 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8520B32BE94BDC007D5334 /* Item.swift */; };
+		9B8520B62BE94BEE007D5334 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8520B52BE94BEE007D5334 /* Category.swift */; };
+		9B8520B82BEA2EBC007D5334 /* ItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8520B72BEA2EBC007D5334 /* ItemTableViewController.swift */; };
+		AD675301213B60D47EE08A7D /* Pods_TaskTastic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE215970C8551B9B11B68716 /* Pods_TaskTastic.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043660FDBDDBD76E783D1DC4 /* Pods-TaskTastic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskTastic.release.xcconfig"; path = "Target Support Files/Pods-TaskTastic/Pods-TaskTastic.release.xcconfig"; sourceTree = "<group>"; };
+		9B19A93F2BEB705900DC781A /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		9B4957CA2BE3B46B00EDCF92 /* TaskTastic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskTastic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B4957CD2BE3B46B00EDCF92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B4957CF2BE3B46B00EDCF92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9B4957D12BE3B46B00EDCF92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9B4957D42BE3B46B00EDCF92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B4957D62BE3B46C00EDCF92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B4957D92BE3B46C00EDCF92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B4957DB2BE3B46C00EDCF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B4957E12BE3B50400EDCF92 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		9B8520B32BE94BDC007D5334 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		9B8520B52BE94BEE007D5334 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		9B8520B72BEA2EBC007D5334 /* ItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewController.swift; sourceTree = "<group>"; };
+		AE215970C8551B9B11B68716 /* Pods_TaskTastic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskTastic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2029DB6D03EA8596D6B00FE /* Pods-TaskTastic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskTastic.debug.xcconfig"; path = "Target Support Files/Pods-TaskTastic/Pods-TaskTastic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD675301213B60D47EE08A7D /* Pods_TaskTastic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CA7174A2EB882FFA9E78C73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE215970C8551B9B11B68716 /* Pods_TaskTastic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47CBEA511904A2E603A0F40C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2029DB6D03EA8596D6B00FE /* Pods-TaskTastic.debug.xcconfig */,
+				043660FDBDDBD76E783D1DC4 /* Pods-TaskTastic.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9B4957C12BE3B46B00EDCF92 = {
 			isa = PBXGroup;
 			children = (
 				9B4957CC2BE3B46B00EDCF92 /* TaskTastic */,
 				9B4957CB2BE3B46B00EDCF92 /* Products */,
+				47CBEA511904A2E603A0F40C /* Pods */,
+				1CA7174A2EB882FFA9E78C73 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +90,33 @@
 			children = (
 				9B4957CD2BE3B46B00EDCF92 /* AppDelegate.swift */,
 				9B4957CF2BE3B46B00EDCF92 /* SceneDelegate.swift */,
-				9B4957D12BE3B46B00EDCF92 /* ViewController.swift */,
+				9B8520B92BEA56C3007D5334 /* Controller */,
+				9B8520BA2BEA56D8007D5334 /* Model */,
 				9B4957D32BE3B46B00EDCF92 /* Main.storyboard */,
 				9B4957D62BE3B46C00EDCF92 /* Assets.xcassets */,
 				9B4957D82BE3B46C00EDCF92 /* LaunchScreen.storyboard */,
 				9B4957DB2BE3B46C00EDCF92 /* Info.plist */,
 			);
 			path = TaskTastic;
+			sourceTree = "<group>";
+		};
+		9B8520B92BEA56C3007D5334 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9B19A93F2BEB705900DC781A /* SwipeTableViewController.swift */,
+				9B4957E12BE3B50400EDCF92 /* HomeTableViewController.swift */,
+				9B8520B72BEA2EBC007D5334 /* ItemTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9B8520BA2BEA56D8007D5334 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B8520B32BE94BDC007D5334 /* Item.swift */,
+				9B8520B52BE94BEE007D5334 /* Category.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B4957DE2BE3B46C00EDCF92 /* Build configuration list for PBXNativeTarget "TaskTastic" */;
 			buildPhases = (
+				F3D2C463F9E7D82AE11793C2 /* [CP] Check Pods Manifest.lock */,
 				9B4957C62BE3B46B00EDCF92 /* Sources */,
 				9B4957C72BE3B46B00EDCF92 /* Frameworks */,
 				9B4957C82BE3B46B00EDCF92 /* Resources */,
+				8CE265A032974B7D2FC3DC17 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +187,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8CE265A032974B7D2FC3DC17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskTastic/Pods-TaskTastic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskTastic/Pods-TaskTastic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaskTastic/Pods-TaskTastic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3D2C463F9E7D82AE11793C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaskTastic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9B4957C62BE3B46B00EDCF92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B4957D22BE3B46B00EDCF92 /* ViewController.swift in Sources */,
+				9B8520B42BE94BDC007D5334 /* Item.swift in Sources */,
+				9B8520B62BE94BEE007D5334 /* Category.swift in Sources */,
+				9B4957E22BE3B50400EDCF92 /* HomeTableViewController.swift in Sources */,
+				9B19A9402BEB705900DC781A /* SwipeTableViewController.swift in Sources */,
 				9B4957CE2BE3B46B00EDCF92 /* AppDelegate.swift in Sources */,
+				9B8520B82BEA2EBC007D5334 /* ItemTableViewController.swift in Sources */,
 				9B4957D02BE3B46B00EDCF92 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,7 +303,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +366,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,6 +387,7 @@
 		};
 		9B4957DF2BE3B46C00EDCF92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2029DB6D03EA8596D6B00FE /* Pods-TaskTastic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -298,8 +399,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +407,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rohinmadhavan.TaskTastic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,6 +419,7 @@
 		};
 		9B4957E02BE3B46C00EDCF92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 043660FDBDDBD76E783D1DC4 /* Pods-TaskTastic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -326,8 +431,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,6 +439,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rohinmadhavan.TaskTastic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
