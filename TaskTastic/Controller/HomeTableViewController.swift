@@ -27,6 +27,9 @@ class HomeTableViewController: SwipeTableViewController {
             fatalError("Nav bar not present")
         }
         navBar.backgroundColor = UIColor.white
+        let textAttributes = [NSAttributedString.Key.foregroundColor: UIColor.black]
+        navBar.largeTitleTextAttributes = textAttributes
+        navBar.tintColor = UIColor.black
     }
     
     override func deleteFromRealm(at indexPath: IndexPath) {

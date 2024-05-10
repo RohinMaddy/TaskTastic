@@ -29,12 +29,16 @@ class ItemTableViewController: SwipeTableViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        if let color = selectedCategory?.color {
+        if let colorHex = selectedCategory?.color, let color = UIColor(hexString: colorHex)  {
             title = selectedCategory!.name
             guard let navBar = navigationController?.navigationBar else {
                 fatalError("Nav bar not present")
             }
-            navBar.backgroundColor = UIColor(hexString: color)
+            let textAttributes = [NSAttributedString.Key.foregroundColor: ContrastColorOf(color, returnFlat: true)]
+            navBar.largeTitleTextAttributes = textAttributes
+            navBar.backgroundColor = color
+            navBar.tintColor = ContrastColorOf(color, returnFlat: true)
+            tableView.backgroundColor = color
         }
     }
     
@@ -51,6 +55,9 @@ class ItemTableViewController: SwipeTableViewController {
         }
     }
     
+    func setupUI() {
+        
+    }
 
     @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
         
